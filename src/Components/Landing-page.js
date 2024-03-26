@@ -5,7 +5,7 @@ function Landingpage(){
     return(
         <>
         <div className='home Container'>
-            <div className=''>
+            <div className='home-content'>
                 <h1>A journey to digital sovereignty</h1>
                 <p>Hills VPN prioritizes security and data protection, leveraging the latest tech insights gained from industry experts.</p>
             </div>
