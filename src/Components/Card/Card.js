@@ -57,23 +57,34 @@ function Card() {
         </div>
 
         <div className="card-information">
-          <p>.... ... .... 3495</p>
-          <p>40/26 598</p>
+            <input placeholder=".... .... .... 3495" className="card-number"/>
+            <input placeholder="04/26 598" className="exp-number"/>
+          {/* <p>.... ... .... 3495</p>
+          <p>40/26 598</p> */}
         </div>
 
         <div className="name-card">
-          <p>Francis Volkman</p>
+          {/* <p>Francis Volkman</p> */}
+          <input placeholder="Francis Volkman" />
         </div>
 
         <div className="country-detail">
           <div className="region">
-            <p>United States, New York </p>
+          <select>
+  <option value="United States, New York">United States, New York</option>
+  <option value="Texas">Texas</option>
+  <option value="Colorado">Colorado</option>
+  <option value="Alabama">Alabama</option>
+</select>
+
+            {/* <p>United States, New York </p>
             <p>
               <MdOutlineArrowDropDown />
-            </p>
+            </p> */}
           </div>
           <div className="zip-code">
-            <p>349</p>
+            {/* <p>349</p> */}
+            <input type="number" placeholder="349" />
           </div>
         </div>
 

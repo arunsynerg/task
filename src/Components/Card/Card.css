@@ -129,7 +129,7 @@
 .card-information{
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    
     align-items: center;
     text-align: center;
     font-weight: bold;
@@ -137,6 +137,16 @@
     border-radius: 17px;
     padding: 0 8px;
     margin-bottom: 23px;
+ }
+ /* .card-information input{
+    width: 50%;
+ } */
+ .card-number{
+    width: 65%;
+ }
+ .exp-number{
+    width: 23%;
+    
  }
  .card-information::before{
     content: 'CARD INFORMATION';
@@ -156,6 +166,10 @@
     border-radius: 17px;
     padding: 0 8px;
     margin-bottom: 23px;
+}
+.name-card input{
+    width: 100%;
+    background: transparent;
 }
 .name-card::before{
     content: 'NAME ON CARD';
@@ -197,6 +211,12 @@
     font-size: 10px;
     color: #ababac;
  }
+ .region select{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 16px 0;
+ }
 .zip-code{
     position: relative;
     font-weight:600;
@@ -216,6 +236,10 @@
     font-size: 10px;
     color: #ababac;
  }
+ .zip-code input{
+    width: 100%;
+    background: transparent;
+ }
 .total{
     display: flex;
     justify-content: space-between;
@@ -233,6 +257,13 @@
     background-color: #380CE8;
     color: #fff;
     margin: 15px 0;
+}
+input{    
+    border: none;
+    outline:none;
+    padding: 16px 0;
+    font-weight: 800;
+   
 }
 @media screen and (max-width:1440px){
     .payment-card{
