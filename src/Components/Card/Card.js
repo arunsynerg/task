@@ -57,8 +57,8 @@ function Card() {
         </div>
 
         <div className="card-information">
-            <input placeholder=".... .... .... 3495" className="card-number"/>
-            <input placeholder="04/26 598" className="exp-number"/>
+            <input type="number" placeholder=".... .... .... 3495" className="card-number"/>
+            <input type="number" placeholder="04/26 598" className="exp-number"/>
           {/* <p>.... ... .... 3495</p>
           <p>40/26 598</p> */}
         </div>

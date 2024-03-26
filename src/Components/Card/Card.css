@@ -143,6 +143,7 @@
  } */
  .card-number{
     width: 65%;
+    
  }
  .exp-number{
     width: 23%;
@@ -264,6 +265,11 @@ input{
     padding: 16px 0;
     font-weight: 800;
    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 @media screen and (max-width:1440px){
     .payment-card{
