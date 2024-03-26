@@ -1,0 +1,249 @@
+.payment-card{
+    width: 80%;
+    background-color: #fff;
+    color: black;
+    border-radius: 30px;
+   padding: 20px 0;
+   margin: 0 auto;
+}
+.card-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.cardHeader{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 0.5rem;
+    border-bottom: #a7a5a5 2px solid;
+}
+.cardHeader h3{
+    margin: 15px 0;
+}
+.closebtn{
+    padding: 1px;
+    background-color: #EEF1F9;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.billing-title{
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.billing-condainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+
+}
+.billing-condainer h6{
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+.billing-condainer p{
+    margin: 0;
+    font-size: 10px;
+    color: #ababac;
+}
+.billing-left{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: #c8ccd4 2px solid;
+}
+.billing-right{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F4F9FF;
+    border: #685BA2 2px solid;
+}
+.billing-right span{
+    background-color: #360EE8;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0 3px;
+}
+.pay-condainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-bottom: 30px;
+}
+.pay-condainer h6{
+    margin: 0;
+}
+.pay-condainer p{
+    margin: 0;
+    font-size: 10px;
+}
+.paypal, .ipay, .gpay{
+    text-align: center;
+
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F3F4F9;
+
+}
+.applepay{
+    width: 35px;
+}
+.paypal h6{
+    font-size: 14px;
+    color: #203650;
+}
+.paypal span{
+    color: #005CA0;
+}
+.credit-card{
+    text-align: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line{
+    position: relative;
+    background-color: #F2F1F5;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.line::before{
+    content: 'OR PAY USING A CREDIT CARD';
+    position: absolute; 
+    width: auto;  
+    min-width: 230px;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    padding: 0 3px;
+    color: #ababac;
+}
+.card-information{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    border: #c8ccd4 1px solid;
+    border-radius: 17px;
+    padding: 0 8px;
+    margin-bottom: 23px;
+ }
+ .card-information::before{
+    content: 'CARD INFORMATION';
+    position: absolute;
+    top: -10px;
+    left: 12px;
+    padding: 0 5px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+    color: #ababac;
+ }
+.name-card{
+   position: relative;
+    font-weight:600;
+    border: #c8ccd4 1px solid;
+    border-radius: 17px;
+    padding: 0 8px;
+    margin-bottom: 23px;
+}
+.name-card::before{
+    content: 'NAME ON CARD';
+    position: absolute;
+    top: -10px;
+    left: 12px;
+    padding: 0 5px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+    color: #ababac;
+ }
+.country-detail{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 23px;
+}
+.region{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight:600;
+    border: #c8ccd4 1px solid;
+    border-radius: 17px;
+    padding: 0 8px;
+    
+}
+.region::before{
+    content: 'NAME ON CARD';
+    position: absolute;
+    top: -10px;
+    left: 12px;
+    padding: 0 5px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+    color: #ababac;
+ }
+.zip-code{
+    position: relative;
+    font-weight:600;
+    border: #c8ccd4 1px solid;
+    border-radius: 17px;
+    padding: 0 8px;
+    
+}
+.zip-code::before{
+    content: 'ZIP CODE';
+    position: absolute;
+    top: -10px;
+    left: 12px;
+    padding: 0 5px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+    color: #ababac;
+ }
+.total{
+    display: flex;
+    justify-content: space-between;
+    border-top: #a7a5a5 1px solid;
+    font-weight:900;
+    margin-bottom: 15px;
+}
+.sub-btn button{
+    display: block;
+    width: 100%;
+    outline: none;
+    padding: 12px 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #380CE8;
+    color: #fff;
+    margin: 15px 0;
+}
+@media screen and (max-width:1440px){
+    .payment-card{
+        width: 90%;
+        padding: 15px 0;
+   }
+   
+}
+@media screen and (max-width:425px){
+    .payment-card{
+        width: 95%;
+        padding: 10px 0;
+   }
+}
